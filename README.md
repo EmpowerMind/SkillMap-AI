@@ -10,6 +10,29 @@ Instead of hopping across multiple platforms, courses, and tools, SkillMap AI br
 
 The platform continuously adapts based on user interactions, reflections, and performance, ensuring learning remains relevant, structured, and outcome-driven.
 
+## Objective
+Build a local-first AI learning companion that transforms a user’s professional profile and learning inputs into an adaptive, artifact-driven system for continuous skill growth and verified mastery.
+
+## High-Level Plan
+1. Define foundations and architecture
+   - Finalize user personas, success metrics, and MVP scope.
+   - Design local-first system architecture, data model, and memory representation (`RemMe`).
+2. Build core ingestion and knowledge pipeline
+   - Implement LinkedIn/resume import and content upload.
+   - Normalize and convert all sources into structured Markdown knowledge units.
+3. Deliver adaptive learning orchestration
+   - Generate daily/weekly personalized plans from goals, activity, and skill gaps.
+   - Break content into micro-learning units and prioritize by relevance and urgency.
+4. Add mastery and reinforcement loops
+   - Create quizzes/flashcards with spaced repetition.
+   - Capture reflections, detect blockers, and continuously update skill-gap mapping.
+5. Build artifact and productivity layer
+   - Support summaries, notes, handwritten practice tracking, and portfolio artifacts.
+   - Integrate automation features (e.g., slide/content generation) for faster output.
+6. Validate, iterate, and scale reliability
+   - Run pilot usage, measure retention and skill progression outcomes.
+   - Improve recommendation quality, UX performance, and long-term memory accuracy.
+
 Features
 - Local-first web application with rich UI features including Markdown viewer and content upload support
 - LinkedIn and resume import with RemMe system for evolving Markdown-based learning memory
